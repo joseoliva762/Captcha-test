@@ -28,7 +28,7 @@ export default function GenerateToken() {
   return (
     <>
       <form
-        className="flex w-full max-w-2xl flex-col items-center justify-start gap-6"
+        className="flex w-full max-w-sm flex-col items-center justify-start gap-6 overflow-hidden md:max-w-2xl"
         onSubmit={handleSubmit}
       >
         <br />
